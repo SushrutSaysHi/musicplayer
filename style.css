@@ -1,0 +1,23 @@
+.head{
+     margin: 0px;
+     width: 100%;
+}
+
+.note{
+     color: black;
+}
+
+canvas{
+     border: 5px solid white;
+     border-radius: 20px;
+     animation: rainbow 10s infinite;
+}
+
+@keyframes rainbow{
+     from{ box-shadow:5px 5px 38px red;}
+     to{box-shadow: 5px 5px 38px purple;}
+}
+
+body{
+     background-color: rgb(34, 33, 33);
+}
